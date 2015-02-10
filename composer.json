@@ -1,0 +1,14 @@
+{
+    "name": "mawoscha/german-localepack-pt-pt",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"German Community Translation",
+    "authors":[
+        {
+            "name":"MaWoScha"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
