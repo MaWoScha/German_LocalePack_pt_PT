@@ -4,7 +4,6 @@
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
-      <version_ids>1</version_ids>
    </version_ids>
    <summary>German Community Modules - Portuguese (Portugal) Language Pack</summary>
    <description>Paquete de idioma portugués para Magento Commerce - Versión para Portugal
@@ -14,7 +13,7 @@ Portuguese language pack for Magento Commerce - Version for Portugal
 Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.1.0</version>
+   <version>0.2.0</version>
    <stability>stable</stability>
    <notes>Übersetzungen noch in Arbeit</notes>
    <authors>
@@ -67,6 +66,8 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -145,6 +146,8 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <path>frontend/default/default/locale/pt_PT/translate.csv</path>
          <path>German/LocalePackPt</path>
          <path>modules/German_LocalePackPt.xml</path>
+         <path>downloader/template_pt_1.5</path>
+         <path>downloader/template_pt_1.7</path>
          <path>pt_PT/Mage_Adminhtml.csv</path>
          <path>pt_PT/Mage_AdminNotification.csv</path>
          <path>pt_PT/Mage_AmazonPayments.csv</path>
@@ -223,6 +226,8 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <type>file</type>
          <type>dir</type>
          <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -372,9 +377,13 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
