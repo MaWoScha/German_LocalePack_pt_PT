@@ -16,6 +16,7 @@
 "Note for detailed information, the README file on the GitHub page.","Note for detailed information, the README file on the GitHub page."
 "In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!","In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!"
 "powered by","powered by"
+"and","et"
 "Using your own translations","Utilisation de vos propres traductions"
 "Recommended extensions","Extensions recommandées"
 "The installed language pack only provides translations of in Magento existing texts. If you want to prepare your Magento store on the legal requirements in Portugal or expand common payment methods, we recommend to install the following additional extensions.","Le pack de langue installée seulement fournit des traductions de textes existants dans Magento. Si vous voulez préparer votre boutique Magento sur les exigences juridiques en Portugal ou développer des modes de paiement, nous vous recommandons d'installer les extensions suivantes."
@@ -28,3 +29,5 @@
 "Payment in Advance","Payment in Advance"
 "Extension Key for the","EClé d'extension pour le"
 "on","sur"
+"Translate TinyMCE","Traducir TinyMCE"
+"Use Portuguese language for TinyMCE Editor?","Use Portuguese language for TinyMCE Editor?"

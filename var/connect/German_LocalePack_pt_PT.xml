@@ -13,7 +13,7 @@ Portuguese language pack for Magento Commerce - Version for Portugal
 Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Übersetzungen noch in Arbeit</notes>
    <authors>
@@ -64,8 +64,26 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <target>magelocal</target>
          <target>magedesign</target>
          <target>magedesign</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -142,12 +160,30 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackpt.xml</path>
          <path>adminhtml/default/default/locale/pt_PT/translate.csv</path>
          <path>frontend/default/default/locale/pt_PT/translate.csv</path>
          <path>German/LocalePackPt</path>
          <path>modules/German_LocalePackPt.xml</path>
          <path>downloader/template_pt_1.5</path>
          <path>downloader/template_pt_1.7</path>
+         <path>js/german/localepackpt/setup.js</path>
+         <path>js/tiny_mce/langs/pt.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/pt.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/pt_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/pt.js</path>
          <path>pt_PT/Mage_Adminhtml.csv</path>
          <path>pt_PT/Mage_AdminNotification.csv</path>
          <path>pt_PT/Mage_AmazonPayments.csv</path>
@@ -224,10 +260,28 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <type>file</type>
          <type>file</type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -379,9 +433,45 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
