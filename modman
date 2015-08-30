@@ -60,6 +60,7 @@ app/locale/pt_PT/Mage_Centinel.csv app/locale/pt_PT/Mage_Centinel.csv
 app/locale/pt_PT/Mage_Checkout.csv app/locale/pt_PT/Mage_Checkout.csv
 app/locale/pt_PT/Mage_Cms.csv app/locale/pt_PT/Mage_Cms.csv
 app/locale/pt_PT/Mage_Compiler.csv app/locale/pt_PT/Mage_Compiler.csv
+app/locale/pt_PT/Mage_ConfigurableSwatches.csv app/locale/pt_PT/Mage_ConfigurableSwatches.csv
 app/locale/pt_PT/Mage_Connect.csv app/locale/pt_PT/Mage_Connect.csv
 app/locale/pt_PT/Mage_Contacts.csv app/locale/pt_PT/Mage_Contacts.csv
 app/locale/pt_PT/Mage_Core.csv app/locale/pt_PT/Mage_Core.csv
