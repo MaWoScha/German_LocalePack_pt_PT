@@ -1,1 +1,1 @@
-tinyMCE.addI18n('es.advhr_dlg',{size:"altura",noshade:"no sombra",width:"ancho",normal:"normal",widthunits:"unidades"});
+tinyMCE.addI18n('pt.advhr_dlg',{size:"altura",noshade:"no sombra",width:"ancho",normal:"normal",widthunits:"unidades"});
