@@ -30,7 +30,7 @@
     $cnt = count($packages);
     if($cnt):
 ?>
-Dependencias de extensión
+Dependências extensões
 <form action="<?php
     echo $this->url('connectInstallPackagePost')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
@@ -43,8 +43,8 @@ Dependencias de extensión
         <thead>
             <tr>
                 <th class="first">Canal</th>
-                <th class="first">Nombre de paquete</th>
-                <th>Versión</th>
+                <th class="first">Nome do pacote</th>
+                <th>Versão</th>
                 <th class="last">Estado</th>
             </tr>
         </thead>
@@ -61,13 +61,13 @@ Dependencias de extensión
     </table>
     <div class="form-btn-set">
         <button class="f-right" type="submit">Continuar</button>
-        <button class="f-right" style="margin-right:10px;" onclick="$('prepare_package_result').update();" type="reset">Cancelar la instalación</button>
+        <button class="f-right" style="margin-right:10px;" onclick="$('prepare_package_result').update();" type="reset">Cancele a instalação</button>
     </div>
 </form>
 <?php
 endif;
 if (!$cnt || !empty($errors['error'])):
-    $_errors = array('error'=>array('La clave de la extensión no es válida.'));
+    $_errors = array('error'=>array('A chave é extensão inválida.'));
     if(!empty($errors) && is_array($errors)) $_errors = $errors;
     $this->set('messages', $_errors)
 ?>

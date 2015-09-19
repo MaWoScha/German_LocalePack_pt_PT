@@ -27,7 +27,7 @@
 <?php echo $this->template('install/header.phtml') ?>
 
 <div class="page-head">
-    <h3>Bienvenido al Asistente de Instalación de Magento!</h3>
+    <h3>Bem-vindo ao Assistente de Instalação do Magento!</h3>
 </div>
 
 <?php if (!$this->controller()->isDownloaded()): ?>
@@ -41,14 +41,14 @@
     <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continúe con la instalación Magento</span></button>
     <br/><br/><br/>
     <p>Alternativamente, usted puede proceder a volver a descargar todos los paquetes</p>
-  <?php echo($this->get('channel_notice')); ?>
+    <?php echo($this->get('channel_notice')); ?>
     <form id="reinstall_all" method="post" action="<?php echo $this->url('connectInstallAll') ?>&force=1" target="connect_iframe" onsubmit="return installAll(true)">
         <fieldset class="fieldset-download">
 <?php endif; ?>
 
             <table cellspacing="0" class="form-list">
-              <tr>
-                    <td class="label">Protocolo del canal Magento Connect:</td>
+                <tr>
+                    <td class="label">Protocolo de canal Magento Connect:</td>
                     <td class="value">
                         <select id="protocol" name="protocol">
                             <option value="https" <?php if ($this->get('protocol')=='https'):?>selected="selected"<?php endif ?>>Https</option>
@@ -56,27 +56,27 @@
                             <option value="ftp" <?php if ($this->get('protocol')=='ftp'):?>selected="selected"<?php endif ?>>Ftp</option>
                         </select>
                     </td>
-              </tr>
+                </tr>
               <?php echo($this->get('channel_protocol_fields')); ?>
                 <tr>
-                    <td class="label">Utilice permisos personalizados:</td>
+                    <td class="label">Use as permissões personalizadas:</td>
                     <td class="value">
                         <select onchange="togglePanel(this)" id="use_custom_permissions_mode" name="use_custom_permissions_mode">
-                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Sí</option>
-                            <option value="0" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>selected="selected"<?php endif ?>>No</option>
+                            <option value="1" <?php if ($this->get('use_custom_permissions_mode')=='1'):?>selected="selected"<?php endif ?>>Sim</option>
+                            <option value="0" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>selected="selected"<?php endif ?>>Não</option>
                         </select>
                     </td>
                 </tr>
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list" id="use_custom_permissions_mode_panel" <?php if ($this->get('use_custom_permissions_mode')=='0'):?>style="display:none;"<?php endif ?> >
                 <tr>
-                    <td class="label">Carpetas:</td>
+                    <td class="label">Diretório:</td>
                     <td class="value">
                         <input id="mkdir_mode" name="mkdir_mode" value="<?php echo($this->get('mkdir_mode'));?>" type="text" class="input-text"></input>
                     </td>
                 </tr>
                 <tr>
-                    <td class="label">Archivos:</td>
+                    <td class="label">Arquivos:</td>
                     <td class="value">
                         <input id="chmod_file_mode" name="chmod_file_mode" value="<?php echo($this->get('chmod_file_mode'));?>" type="text" class="input-text"></input>
                     </td>
@@ -84,39 +84,39 @@
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list">
                 <tr>
-                    <td class="label">Tipo de implementación:</td>
+                    <td class="label">Tipo de implementação:</td>
                     <td class="value">
                         <select id="inst_protocol" onchange="togglePanel(this)" name="inst_protocol">
-                            <option value="0">Sistema de archivos local</option>
-                            <option value="1">Conexión FTP</option>
+                            <option value="0">Sistema de arquivos local</option>
+                            <option value="1">Conexão FTP</option>
                         </select>
                     </td>
                 </tr>
             </table>
             <table cellspacing="0" cellpadding="0" class="form-list" id="inst_protocol_panel">
                 <tr>
-                    <td class="label">Servidor:</td>
+                    <td class="label">Server / Anfitrião:</td>
                     <td class="value">
                         <input type="text" class="input-text" id="ftp_host" value="" name="ftp_host" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">Usuario:</td>
+                    <td class="label">Usuário:</td>
                     <td class="value">
                         <input type="text" class="input-text" id="ftp_login" value="" name="ftp_login" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">Contraseña:</td>
+                    <td class="label">Senha:</td>
                     <td class="value">
                         <input type="password" id="ftp_password" value="" name="ftp_password" class="input-text" />
                     </td>
                 </tr>
 
                 <tr>
-                    <td class="label">Ruta de instalación:</td>
+                    <td class="label">Caminho de instalação:</td>
                     <td class="value">
                         <input id="ftp_path" name="ftp_path" value="" type="text" class="input-text" />
                     </td>
@@ -124,7 +124,7 @@
             </table>
 
 <?php if (!$this->controller()->isDownloaded()): ?>
-            <button class="form-button" type="submit">Inicie el proceso de descarga</button>
+            <button class="form-button" type="submit">Comece o processo de download</button>
         </fieldset>
     </form>
 <?php else: ?>
@@ -143,13 +143,13 @@
     ))) ?>
     <?php echo $this->template('messages.phtml') ?>
 
-    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>v</span></button>
+    <button class="form-button" type="button" onclick="location.href='<?php echo $this->mageUrl() ?>'"><span>Continue com a instalação do Magento</span></button>
 </div>
 
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Hubo un problema durante la descarga de los paquetes de Magento. Por favor, compruebe el cuadro de salida de información de errores y actualiza la página para volver a intentar de nuevo.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button class="form-button" type="button" onclick="location.reload()"><span>Actualizar</span></button>
+    <button class="form-button" type="button" onclick="location.reload()"><span>Actualização</span></button>
 </div>
 
 <script type="text/javascript">

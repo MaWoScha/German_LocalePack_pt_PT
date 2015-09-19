@@ -27,28 +27,28 @@
 <?php echo $this->template('header.phtml') ?>
 <?php if ($this->get('writable_warning')) echo $this->template('writable.phtml');?>
 <div class="bar-head">
-    <h4>Configuración</h4>
+    <h4>Configuração</h4>
 </div>
 <ul class="bare-list">
 <li><input type="checkbox" id="maintenance" value="1" checked="checked" /> &nbsp;
-<label for="maintenance">Activar el modo de mantenimiento durante la instalación o actualización? (No se puede se colocar ningún pedido.)</label>
+<label for="maintenance">O modo de manutenção durante a instalação ou atualização? (Você pode colocar qualquer ordem.)</label>
 </li>
 </ul>
 
 <div class="bar-head">
-    <h4>Instalar nuevas extensiones</h4>
+    <h4>Instalação de novas extensões</h4>
 </div>
 <script type="text/javascript">
 <!--
  function connectPrepare(form) {
     new Ajax.Request(form.action, {
       method:'post',
-      parameters: {install_package_id: form.install_package_id.value},
+      parameters: {install_package_id: form.install_package_id.value, form_key: form.form_key.value},
       onCreate: function() {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere …'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Carregando ..."/><br/>Por favor, aguarde ...'+
                 ' </p>'+
                 '</div>'
           );
@@ -67,7 +67,7 @@
               ' <ul class="msgs"> ' +
               '  <li>' +
               '   <ul class="error-msg">' +
-              '     <li>Error de conexión. Inténtelo más tarde.</li>' +
+              '     <li>Erro de conexão. Tente novamente mais tarde.</li>' +
               '   </ul>' +
               '  </li>' +
               ' </ul>' +
@@ -80,13 +80,14 @@
 //-->
 </script>
 <form action="<?php echo $this->url('connectPreparePackagePost')?>" method="post" onsubmit="return connectPrepare(this)">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
         <li>
-            <span class="step-count">1</span> &nbsp; Buscar módulos en <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
+            <span class="step-count">1</span> &nbsp; Módulos de pesquisa <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
         </li>
         <li>
             <span class="step-count">2</span> &nbsp;
-            <label for="install_package_id">Inserta la clave de la extensión para instalarla:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
+            <label for="install_package_id">Insira a extensão chave para instalar:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
             <button type="submit">Instalar</button>
         </li>
     </ul>
@@ -98,17 +99,17 @@
 <br/>
 
 <div class="bar-head">
-    <h4>Cargue el paquete de módulo (.tgz Archiv)</h4>
+    <h4>Carregue o pacote do módulo (.tgz Archiv)</h4>
 </div>
 <form action="<?php echo $this->url('connectInstallPackageUpload')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)" enctype="multipart/form-data">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
-        <li><span class="step-count">1</span> &nbsp; Descargar o crear un paquete.</li>
+        <li><span class="step-count">1</span> &nbsp; Faça o download ou criar um pacote.</li>
         <li>
-            <span class="step-count">2</span> &nbsp; Subir un paquete de módulo:
+            <span class="step-count">2</span> &nbsp; Carregar pacote do módulo:
             <label for="file"></label>
             <input type="file" id="file" name="file"/>
-            <button type="submit">Subir y Instalar</button>
+            <button type="submit">Carregar e instalar</button>
         </li>
     </ul>
 </form>
@@ -134,6 +135,7 @@
 <?php foreach ($packages as $channel=>$pkgs): ?>
 
 <form id="connect_packages_<?php echo $i ?>" class="connect-packages" action="<?php echo $this->url('connectPackagesPost')?>" method="post" target="connect_iframe">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <div class="no-display">
         <input type="hidden" id="ignore_local_modification" name="ignore_local_modification" value=""/>
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
@@ -158,11 +160,11 @@
         <?php endif; ?>
         <thead>
             <tr>
-                <th class="first">Nombre de paquete</th>
+                <th class="first">Nome do pacote</th>
                 <th class="a-center">Instalado</th>
-                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Disponible</th><?php endif; ?>
-                <th>Acciones</th>
-                <th class="last">Resumen</th>
+                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Disponível</th><?php endif; ?>
+                <th>Ações</th>
+                <th class="last">Resumo</th>
             </tr>
         </thead>
         <tbody>
@@ -192,13 +194,13 @@
         <?php if (!empty($_GET['updates'])): ?>
         <p class="f-left a-left">
             <span style="background:#f6f6f6;padding:0 5px;">&nbsp;</span> &nbsp;Instalado<br/>
-            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Actualizaciones disponibles<br/>
+            <span style="background:#fcfbbb;padding:0 5px;">&nbsp;</span> &nbsp;Atualizações disponíveis<br/>
         </p>
         <?php endif; ?>
     </div>
 </form>
 <script type="text/javascript">
-$$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''});
+$$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.value=''});
 </script>
 <?php if (++$i != $cnt): ?><div class="divider"></div><?php endif ?>
 <br/>
@@ -211,12 +213,12 @@ $$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array('El proceso se ha completado. Preste atención a la cuestión en el cuadro negro para recibir información importante sobre la operación.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualização</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Observa los mensajes de error en la ventana de negro y actualiza la página para ver los cambios.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualização</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>

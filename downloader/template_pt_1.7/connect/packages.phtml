@@ -27,12 +27,12 @@
 <?php echo $this->template('header.phtml') ?>
 <?php if ($this->get('writable_warning')) echo $this->template('writable.phtml');?>
 <div class="bar-head">
-    <h4>Configuración</h4>
+    <h4>Configuração</h4>
 </div>
 <ul class="bare-list">
     <li>
         <input type="checkbox" id="maintenance" value="1" checked="checked" /> &nbsp;
-        <label for="maintenance">Activar el modo de mantenimiento durante la instalación o actualización? (No se puede se colocar ningún pedido.)</label>
+        <label for="maintenance">O modo de manutenção durante a instalação ou atualização? (Você pode colocar qualquer ordem.)</label>
     </li>
     <li>
         <table cellpadding="0" cellspacing="0">
@@ -41,21 +41,21 @@
                     <input type="checkbox" id="is_backup" value="1"  /> &nbsp;
                 </td>
                 <td>
-                    <label for="is_backup">Crear una copia de respaldo</label>
+                    <label for="is_backup">Criar um backup</label>
                 </td>
                 <td>
                     &nbsp;<select id="archive_type" style="width: 320px;">
                         <option value="1">Banco de datos</option>
-                        <option value="4">Banco de datos y imágenes (carpeta media)</option>
-                        <option value="2">Sistema (todo)</option>
-                        <option value="3">Sistema (sin carpeta media)</option>
+                        <option value="4">Banco de dados e imagens (pasta de media)</option>
+                        <option value="2">System (todo)</option>
+                        <option value="3">System (sem pasta de media)</option>
                     </select>
                 </td>
             </tr>
             <tr id="backup-name-container" style="display: none; margin-top: 5px;">
                 <td valign="top">
                     <div style="margin: 6px 0 0 5px;">
-                        <label for="backup_name">Nombre de la copia de respaldo</label>
+                        <label for="backup_name">Nome da cópia de segurança</label>
                     </div>
                 </td>
                 <td>
@@ -69,7 +69,7 @@
     </li>
 </ul>
 <div class="bar-head">
-    <h4>Instalar nuevas extensiones</h4>
+    <h4>Instalação de novas extensões</h4>
 </div>
 <script type="text/javascript">
 <!--
@@ -90,7 +90,7 @@ function connectPrepare(form) {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere ‚Ä¶'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Carregando ..."/><br/>Por favor, aguarde ...'+
                 ' </p>'+
                 '</div>'
           );
@@ -109,7 +109,7 @@ function connectPrepare(form) {
               ' <ul class="msgs"> ' +
               '  <li>' +
               '   <ul class="error-msg">' +
-              '     <li>Error de conexión. Inténtelo más tarde.</li>' +
+              '     <li>Erro de conexão. Tente novamente mais tarde.</li>' +
               '   </ul>' +
               '  </li>' +
               ' </ul>' +
@@ -125,11 +125,11 @@ function connectPrepare(form) {
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
         <li>
-            <span class="step-count">1</span> &nbsp; Buscar módulos en <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
+            <span class="step-count">1</span> &nbsp; Módulos de pesquisa <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
         </li>
         <li>
             <span class="step-count">2</span> &nbsp;
-            <label for="install_package_id">Inserte la clave de la extensión para instalarla:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
+            <label for="install_package_id">Insira a extensão chave para instalar:</label> <input type="text" id="install_package_id" name="install_package_id" style="width:300px"/>
             <button type="submit">Instalar</button>
         </li>
     </ul>
@@ -141,17 +141,17 @@ function connectPrepare(form) {
 <br/>
 
 <div class="bar-head">
-    <h4>Cargue el paquete de módulo (Archivo .tgz)</h4>
+    <h4>Carregue o pacote do módulo (Archivo .tgz)</h4>
 </div>
 <form action="<?php echo $this->url('connectInstallPackageUpload')?>" method="post" target="connect_iframe" onsubmit="onSubmit(this)" enctype="multipart/form-data">
     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
-        <li><span class="step-count">1</span> &nbsp; Descargar o crear un paquete.</li>
+        <li><span class="step-count">1</span> &nbsp; Faça o download ou criar um pacote.</li>
         <li>
-            <span class="step-count">2</span> &nbsp; Subir un paquete de módulo:
+            <span class="step-count">2</span> &nbsp; Carregar pacote do módulo:
             <label for="file"></label>
             <input type="file" id="file" name="file"/>
-            <button type="submit">Subir y Instalar</button>
+            <button type="submit">Carregar e instalar</button>
         </li>
     </ul>
 </form>
@@ -202,11 +202,11 @@ function connectPrepare(form) {
         <?php endif; ?>
         <thead>
             <tr>
-                <th class="first">Nombre de paquete</th>
+                <th class="first">Nome do pacote</th>
                 <th class="a-center">Instalado</th>
-                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Disponible</th><?php endif; ?>
-                <th>Acciones</th>
-                <th class="last">Resumen</th>
+                <?php if (!empty($_GET['updates'])): ?><th class="a-center">Disponível</th><?php endif; ?>
+                <th>Ações</th>
+                <th class="last">Resumo</th>
             </tr>
         </thead>
         <tbody>
@@ -255,12 +255,12 @@ $$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.valu
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array('El proceso se ha completado. Preste atención a la cuestión en el cuadro negro para recibir información importante sobre la operación.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualização</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Observa los mensajes de error en la ventana de negro y actualiza la página para ver los cambios.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualização</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>
