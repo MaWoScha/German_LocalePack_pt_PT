@@ -17,7 +17,7 @@
     "map": [
       ["./app/code/community/German/LocalePackPt", "./app/code/community/German/LocalePackPt"],
       ["./app/etc/modules/German_LocalePackPt.xml", "./app/etc/modules/German_LocalePackPt.xml"],
-      ["./app/design/adminhtml/default/default/layout/localePackPt.xml", "./app/design/adminhtml/default/default/layout/localePackPt.xml"],
+      ["./app/design/adminhtml/default/default/layout/localepackpt.xml", "./app/design/adminhtml/default/default/layout/localepackpt.xml"],
       ["./app/design/adminhtml/default/default/locale/pt_PT/translate.csv", "./app/design/adminhtml/default/default/locale/pt_PT/translate.csv"],
       ["./app/design/frontend/default/blank/locale/pt_PT/translate.csv", "./app/design/frontend/default/blank/locale/pt_PT/translate.csv"],
       ["./app/design/frontend/default/default/locale/pt_PT/translate.csv", "./app/design/frontend/default/default/locale/pt_PT/translate.csv"],
