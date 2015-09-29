@@ -1,4 +1,1 @@
-tinyMCE.addI18n('pt.autosave',{
-restore_content: "Restaurar conte\u00fado auto-salvos",
-warning_message: "If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?"
-});
+tinyMCE.addI18n('pt.autosave',{restore_content: "Restaurar conte\u00fado auto-salvos",warning_message: "Se voc\u00ea restaurar o conte\u00fado salvo, voc\u00ea vai perder todo o conte\u00fado que est\u00e1 atualmente no editor.\n\nTem certeza de que deseja restaurar o conte\u00fado salvo?"});
