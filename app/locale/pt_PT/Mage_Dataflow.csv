@@ -8,7 +8,7 @@
 "Destination folder ""%s"" is not writable.","A pasta de destino ""%s"" não tem permissões de escrita."
 "Done","Feito"
 "Dry run set, stopping execution.","Execução em seco, a parar execução."
-"ETA: %s","TRE: %s"
+"ETA: %s","Tempo estimado: %s"
 "Error in field mapping: field list for mapping is not defined.","Erro no mapeamento de campos: lista de campos para mapear não está definida."
 "File ""%s"" does not exist.","O ficheiro ""%s"" não existe."
 "Found %d rows.","Encontradas %s linhas."
