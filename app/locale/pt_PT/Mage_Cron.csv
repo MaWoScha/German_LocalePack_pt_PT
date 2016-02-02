@@ -6,7 +6,7 @@
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (tarefas agendadas) - Todos os tempos em minutos"
 "Daily","Diariamente"
 "Failure History Lifetime","Tempo de vida para histórico de erro"
-"For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.",""Para gerar URL's corretas durante a execução de tarefas"," por favor confirme que web> Url base seguras e não seguras estão bem definidas.""
+"For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Para gerar URL's corretas durante a execução de tarefas, por favor confirme que web> Url base seguras e não seguras estão bem definidas."
 "Generate Schedules Every","Gerar agendamentos a cada"
 "History Cleanup Every","Limpar o histórico a cada"
 "Hourly","A cada hora"

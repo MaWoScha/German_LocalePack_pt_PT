@@ -51,6 +51,7 @@ app/design/frontend/rwd/default/locale/pt_PT/translate.csv          app/design/f
 #CoreTranslation
 app/locale/pt_PT/Mage_Adminhtml.csv app/locale/pt_PT/Mage_Adminhtml.csv
 app/locale/pt_PT/Mage_AdminNotification.csv app/locale/pt_PT/Mage_AdminNotification.csv
+app/locale/pt_PT/Mage_AmazonPayments.csv app/locale/pt_PT/Mage_AmazonPayments.csv
 app/locale/pt_PT/Mage_Api.csv app/locale/pt_PT/Mage_Api.csv
 app/locale/pt_PT/Mage_Api2.csv app/locale/pt_PT/Mage_Api2.csv
 app/locale/pt_PT/Mage_Authorizenet.csv app/locale/pt_PT/Mage_Authorizenet.csv
@@ -141,9 +142,9 @@ app/locale/pt_PT/template/email/token.html app/locale/pt_PT/template/email/token
 app/locale/pt_PT/template/email/wishlist_share.html app/locale/pt_PT/template/email/wishlist_share.html
 
 #Email subtemplates
-app/locale/pt_PT/template/email/html/call_us.html app/locale/pt_PT/template/email/html/call_us.html
 app/locale/pt_PT/template/email/html/footer.html app/locale/pt_PT/template/email/html/footer.html
 app/locale/pt_PT/template/email/html/header.html app/locale/pt_PT/template/email/html/header.html
+app/locale/pt_PT/template/email/html/support.html app/locale/pt_PT/template/email/html/support.html
 
 #Email Sales Templates
 app/locale/pt_PT/template/email/sales/creditmemo_new_guest.html app/locale/pt_PT/template/email/sales/creditmemo_new_guest.html
