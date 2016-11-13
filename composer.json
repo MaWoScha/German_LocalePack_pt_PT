@@ -107,6 +107,7 @@
       ["./app/locale/pt_PT/template/email/newsletter_subscr_success.html", "./app/locale/pt_PT/template/email/newsletter_subscr_success.html"],
       ["./app/locale/pt_PT/template/email/newsletter_unsub_success.html", "./app/locale/pt_PT/template/email/newsletter_unsub_success.html"],
       ["./app/locale/pt_PT/template/email/password_new.html", "./app/locale/pt_PT/template/email/password_new.html"],
+      ["./app/locale/pt_PT/template/email/password_or_email_changed.html", "./app/locale/pt_PT/template/email/password_or_email_changed.html"],
       ["./app/locale/pt_PT/template/email/payment_failed.html", "./app/locale/pt_PT/template/email/payment_failed.html"],
       ["./app/locale/pt_PT/template/email/product_alert_cron_error.html", "./app/locale/pt_PT/template/email/product_alert_cron_error.html"],
       ["./app/locale/pt_PT/template/email/product_price_alert.html", "./app/locale/pt_PT/template/email/product_price_alert.html"],
@@ -161,7 +162,7 @@
       ["./app/locale/es_ES/German_LocalePt.csv", "./app/locale/es_ES/German_LocalePt.csv"],
       ["./app/locale/fr_FR/German_LocalePt.csv", "./app/locale/fr_FR/German_LocalePt.csv"],
       ["./app/locale/pt_BR/German_LocalePt.csv", "./app/locale/pt_BR/German_LocalePt.csv"],
-      ["./app/locale/pt_PT/German_LocalePt.csv", "./app/locale/pt_PT/German_LocalePt.csv"]  
+      ["./app/locale/pt_PT/German_LocalePt.csv", "./app/locale/pt_PT/German_LocalePt.csv"]
     ]
   },
   "config": {

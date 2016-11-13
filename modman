@@ -87,7 +87,7 @@ app/locale/pt_PT/Mage_Install.csv app/locale/pt_PT/Mage_Install.csv
 app/locale/pt_PT/Mage_Log.csv app/locale/pt_PT/Mage_Log.csv
 app/locale/pt_PT/Mage_Media.csv app/locale/pt_PT/Mage_Media.csv
 app/locale/pt_PT/Mage_Newsletter.csv app/locale/pt_PT/Mage_Newsletter.csv
-app/locale/pt_PT/Mage_OAuth.csv app/locale/pt_PT/Mage_OAuth.csv
+app/locale/pt_PT/Mage_Oauth.csv app/locale/pt_PT/Mage_Oauth.csv
 app/locale/pt_PT/Mage_Page.csv app/locale/pt_PT/Mage_Page.csv
 app/locale/pt_PT/Mage_PageCache.csv app/locale/pt_PT/Mage_PageCache.csv
 app/locale/pt_PT/Mage_Paygate.csv app/locale/pt_PT/Mage_Paygate.csv
@@ -122,7 +122,7 @@ app/locale/pt_PT/template/email/account_new_confirmed.html app/locale/pt_PT/temp
 app/locale/pt_PT/template/email/account_new.html app/locale/pt_PT/template/email/account_new.html
 app/locale/pt_PT/template/email/account_password_reset_confirmation.html app/locale/pt_PT/template/email/account_password_reset_confirmation.html
 app/locale/pt_PT/template/email/admin_password_new.html app/locale/pt_PT/template/email/admin_password_new.html
-app/locale/pt_PT/template/email/admin_password_reset_confirmation.html app/locale/pt_PT/template/email/admin_password_reset_confirmation.html 
+app/locale/pt_PT/template/email/admin_password_reset_confirmation.html app/locale/pt_PT/template/email/admin_password_reset_confirmation.html
 app/locale/pt_PT/template/email/amazonpayments_asp_notification_error.html app/locale/pt_PT/template/email/amazonpayments_asp_notification_error.html
 app/locale/pt_PT/template/email/contact_form.html app/locale/pt_PT/template/email/contact_form.html
 app/locale/pt_PT/template/email/currency_update_warning.html app/locale/pt_PT/template/email/currency_update_warning.html
@@ -132,6 +132,7 @@ app/locale/pt_PT/template/email/newsletter_subscr_confirm.html app/locale/pt_PT/
 app/locale/pt_PT/template/email/newsletter_subscr_success.html app/locale/pt_PT/template/email/newsletter_subscr_success.html
 app/locale/pt_PT/template/email/newsletter_unsub_success.html app/locale/pt_PT/template/email/newsletter_unsub_success.html
 app/locale/pt_PT/template/email/password_new.html app/locale/pt_PT/template/email/password_new.html
+app/locale/pt_PT/template/email/password_or_email_changed.html app/locale/pt_PT/template/email/password_or_email_changed.html
 app/locale/pt_PT/template/email/payment_failed.html app/locale/pt_PT/template/email/payment_failed.html
 app/locale/pt_PT/template/email/product_alert_cron_error.html app/locale/pt_PT/template/email/product_alert_cron_error.html
 app/locale/pt_PT/template/email/product_price_alert.html app/locale/pt_PT/template/email/product_price_alert.html

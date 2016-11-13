@@ -13,9 +13,9 @@ Portuguese language pack for Magento Commerce - Version for Portugal
 Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.8.2</version>
+   <version>0.8.3</version>
    <stability>stable</stability>
-   <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
+   <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.3.x</notes>
    <authors>
       <name>
          <name>Manfred Worm Schäfer</name>
@@ -91,6 +91,7 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -260,6 +261,7 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <path>pt_PT/Mage_Widget.csv</path>
          <path>pt_PT/Mage_Wishlist.csv</path>
          <path>pt_PT/Mage_XmlConnect.csv</path>
+         <path>pt_PT/Phoenix_Moneybookers.csv</path>
          <path>pt_PT/template</path>
          <path>pt_PT/German_LocalePt.csv</path>
          <path>de_DE/German_LocalePt.csv</path>
@@ -281,6 +283,7 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -475,9 +478,11 @@ Portugiesisches Sprachpaket für Magento Commerce - Sprachversion für Portugal<
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
