@@ -305,6 +305,7 @@
 "Per Website","Por Site"
 "Personal Information","Informação Pessoal"
 "Please enter a number 1 or greater in this field.","Por favor, insira o número 1 ou superior no campo."
+"Please enter a password with at most %s characters.","Por favor, insira uma senha con un máximo de %s caracteres."
 "Please enter a valid date between %s and %s at %s.","Por favor, insira uma data válida entre %s e %s a %s."
 "Please enter a valid date equal to or greater than %s at %s.","Por favor, insira uma data válida igual ou superior a %s a %s."
 "Please enter a valid date less than or equal to %s at %s.","Por favor, insira uma data válida inferior ou igual a %s a %s."
