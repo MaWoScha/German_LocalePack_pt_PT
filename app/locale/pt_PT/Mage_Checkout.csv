@@ -3,6 +3,9 @@
 "(Excl. Tax)","(Exl. Imposto)"
 "(Incl. Tax)","(Incl. Imposto)"
 "* Required Fields","* Campos obrigatórios"
+"<strong style=""color:red"">Important!</strong> Enabling this option means
+                            that your custom templates used in checkout process contain form_key output.
+                            Otherwise checkout may not work.","<strong style=""color:red"">Importante!</strong> Habilitar esta opção significa que seus modelos personalizados usados no processo de conclusão de compra contêm a saída de form_key. Caso contrário, o acabamento da compra pode não funcionar."
 "Add New Address","Adicionar novo endereço"
 "Add New Condition","Adicionar nova condição"
 "Add coupon code for shopping cart","Adicionar cupão para carrinho de compras"
@@ -347,7 +350,6 @@
 "Use Billing Address","Usar endereço de faturação"
 "VAT Number","Número fiscal"
 "View Shopping Cart","Ver carrinho compras"
-"Visible items in minicart","Elementos visíveis do minicesta"
 "We are processing your order and you will soon receive an email with details of the order. Once the order has shipped you will receive another email with a link to track its progress.","Estamos neste momento a processar a sua encomenda. e irá receber brevemente um email com os detalhes da mesma. Quando a sua encomenda for enviada irá receber um outro email com uma ligação para poder seguir o progresso da encomenda"
 "What&#39;s this?","O que é isto?"
 "What's this?","O que é isto?"
@@ -358,7 +360,6 @@
 "Your order # is: %s.","A sua encomenda # é: %s."
 "Your order cannot be completed at this time as there is no payment methods available for it.","Neste momento a sua encomenda não pode ser efetuada porque não existem métodos de pagamento disponíveis."
 "Your order cannot be completed at this time as there is no shipping methods available for it. Please make necessary changes in your shipping address.","Neste momento a sua encomenda não pode ser realizada porque, não existe nenhuma forma de envio disponível para esse local. Por favor, efetue as alterações necessárias no endereço de entrega."
-"Your order has been received","A sua encomenda foi recebida."
 "Your order has been received.","A sua encomenda foi recebida."
 "Your order number is ","O seu número de encomenda é "
 "Your recurring payment profiles:","As suas subscrições:"

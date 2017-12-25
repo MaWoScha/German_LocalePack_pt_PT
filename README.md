@@ -1,10 +1,12 @@
 # Portugiesisches Sprachpaket für Magento (CE)
 (Magento Community Modules - Portuguese (Portugal) Language Pack)<br />
-(Módulos de Magento Community - Paquete de idioma portugués)
+(Módulo Magento Comunidade - Pacote Português)
+(Módulo de Comunidad Magento - Paquete de idioma portugués)
 
-Dieses Sprachpaket wird von MaWoScha verwaltet.<br />
+Este pacote de idioma é gerido por MaWoScha<br />
+Este paquete de idioma está gestionado por MaWoScha.<br />
 This language package is managed by MaWoScha.<br />
-Este paquete de idioma está gestionado por MaWoScha.
+Dieses Sprachpaket wird von MaWoScha verwaltet.
 
 
 # Gestión de Git / Administration of Git / Git-Verwaltung
