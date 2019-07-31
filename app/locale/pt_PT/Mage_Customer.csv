@@ -432,7 +432,7 @@
 "The suffix that goes after name (Jr., Sr., etc.)","O sufixo que se segue após o nome (Sr, Dr., etc.)"
 "The title that goes before name (Mr., Mrs., etc.)","O título que vem antes do nome (Sr, Men, etc)"
 "There are no items in customer's wishlist at the moment","Não existem itens nos Favoritos do Cliente"
-"There are no items in customer's shopping cart at the moment","Não existem itens no carrinho de compras do cliente"
+"There are no items in customer\'s shopping cart at the moment","Não existem itens no carrinho de compras do cliente"
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account.","Já existe uma conta com este endereço de e-mail. Se tiver a certeza que é o seu endereço de e-mail,<a href=""%s"">clique aqui</a>para obter a sua palavra passe e acesso à sua conta."
 "There was an error validating the VAT ID.","Ocorreu um erro ao validar o Número Fiscal"
 "There was an error validating the VAT ID. The customer would belong to Customer Group %s.","Ocorreu um erro ao validar o Número Fiscal. O cliente deveria pertencer ao Grupo de Cliente %s."

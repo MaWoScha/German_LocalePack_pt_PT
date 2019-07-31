@@ -45,19 +45,19 @@ MaWoScha
 Se trata de una obra derivada de [German LocalePack es_ES](https://github.com/MaWoScha/German_LocalePack_es_ES) de [MaWoScha](https://github.com/MaWoScha/).
 
 Esta extensión se prueba con Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 y 1.9.1. <br />
-El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.3.10
+El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.4.x
 
 
 This is a derived work of [German LocalePack es_ES](https://github.com/MaWoScha/German_LocalePack_es_ES) by [MaWoScha](https://github.com/MaWoScha/).
 
 This extension is tested with Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 and 1.9.1. <br />
-The language pack is suitable for Magento 1.6.x to 1.9.3.10
+The language pack is suitable for Magento 1.6.x to 1.9.4.x
 
 
 Dies ist eine abgeleitete Arbeit von [German LocalePack es_ES](https://github.com/MaWoScha/German_LocalePack_es_ES) von [MaWoScha](https://github.com/MaWoScha/).
 
 Diese Erweiterung ist mit Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 und 1.9.1 getestet. <br />
-Das Sprachpaket ist für Magento 1.6.x bis 1.9.3.10
+Das Sprachpaket ist für Magento 1.6.x bis 1.9.4.x
 
 
 # Veja também / Véase también / See also / Siehe auch
