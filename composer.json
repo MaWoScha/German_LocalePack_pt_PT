@@ -5,7 +5,8 @@
   "description":"Portuguese (Portugal) Community Translation",
   "authors":[
     {
-      "name":"MaWoScha"
+      "name":"MaWoScha",
+      "email":"manfredwormschaefer@gmail.com"
     }
   ],
   "require": {
@@ -145,7 +146,7 @@
       ["js/tiny_mce/plugins/advlink/langs/pt_dlg.js", "js/tiny_mce/plugins/advlink/langs/pt_dlg.js"],
       ["js/tiny_mce/plugins/autosave/langs/pt.js", "js/tiny_mce/plugins/autosave/langs/pt.js"],
       ["js/tiny_mce/plugins/emotions/langs/pt_dlg.js", "js/tiny_mce/plugins/emotions/langs/pt_dlg.js"],
-      ["js/tiny_mce/plugins/fullpage/langs/pt_dlg.js", "./s/tiny_mce/plugins/fullpage/langs/pt_dlg.js"],
+      ["js/tiny_mce/plugins/fullpage/langs/pt_dlg.js", "js/tiny_mce/plugins/fullpage/langs/pt_dlg.js"],
       ["js/tiny_mce/plugins/media/langs/pt_dlg.js", "js/tiny_mce/plugins/media/langs/pt_dlg.js"],
       ["js/tiny_mce/plugins/paste/langs/pt_dlg.js", "js/tiny_mce/plugins/paste/langs/pt_dlg.js"],
       ["js/tiny_mce/plugins/searchreplace/langs/pt_dlg.js", "js/tiny_mce/plugins/searchreplace/langs/pt_dlg.js"],
