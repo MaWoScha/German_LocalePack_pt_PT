@@ -60,5 +60,6 @@
 "Update product's %s %s: %s","Atualizar produtos %s %s: %s"
 "Website","Site"
 "Websites","Sites"
-"Wrong rule specified.","Regra inválida especificada"
+"Wrong rule specified","Regra inválida especificada"
+"Wrong rule specified.","Regra inválida especificada."
 "Yes","Sim"

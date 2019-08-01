@@ -296,6 +296,7 @@
 "Invalid draw line data. Please define ""lines"" array.","Desenho de linha inválido. Por favor defina o array ""lines""."
 "Invalid entity model","Invalid entity model"
 "Invalid item option format.","Formato de opção do item inválido."
+"Invalid order data.","Dados inválidos da ordem."
 "Invalid qty to invoice item ""%s""","Qt. inválida para o item ""%s"" da fatura"
 "Invalid qty to refund item ""%s""","Qt. inválida para o item ""%s"" para reembolso"
 "Invalid qty to ship for item ""%s""","Qt. inválida para o item ""%s"" para o envio"

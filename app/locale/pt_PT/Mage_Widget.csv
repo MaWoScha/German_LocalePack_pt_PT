@@ -6,6 +6,7 @@
 "All","Todos"
 "All Pages","Todas as páginas"
 "All Product Types","Todos os tipos de produtos"
+"An error occurred during POST data validation: %s","Ocorreu um erro durante a validação de dados POST: %s"
 "An error occurred during saving a widget: %s","Ocorreu um erro ao guardar o widget: %s"
 "Anchor Categories","Categorias âncora"
 "Apply","Aplicar"
