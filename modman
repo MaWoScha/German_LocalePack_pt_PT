@@ -123,6 +123,7 @@ app/locale/pt_PT/template/email/account_new_confirmation.html app/locale/pt_PT/t
 app/locale/pt_PT/template/email/account_new_confirmed.html app/locale/pt_PT/template/email/account_new_confirmed.html
 app/locale/pt_PT/template/email/account_new.html app/locale/pt_PT/template/email/account_new.html
 app/locale/pt_PT/template/email/account_password_reset_confirmation.html app/locale/pt_PT/template/email/account_password_reset_confirmation.html
+app/locale/pt_PT/template/email/admin_new_user_notification.html app/locale/pt_PT/template/email/admin_new_user_notification.html
 app/locale/pt_PT/template/email/admin_password_new.html app/locale/pt_PT/template/email/admin_password_new.html
 app/locale/pt_PT/template/email/admin_password_reset_confirmation.html app/locale/pt_PT/template/email/admin_password_reset_confirmation.html
 app/locale/pt_PT/template/email/amazonpayments_asp_notification_error.html app/locale/pt_PT/template/email/amazonpayments_asp_notification_error.html

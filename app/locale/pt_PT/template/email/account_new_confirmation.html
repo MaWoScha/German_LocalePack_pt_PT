@@ -21,7 +21,7 @@
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
             <p>O seu email {{var customer.email}} tem que ser confirmado antes que posso ser utilizado na nossa loja.</p>
             <p>Para confirmar o email e iniciar sessão clique nesta hiperligação de confirmação (esta ligação apenas é válida uma vez):</p>
-            <table cellspacing="0" cellpadding="0" class="action-button" >
+            <table cellspacing="0" cellpadding="0" class="action-button">
                 <tr>
                     <td>
                         <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>Confirme conta</span></a>
